@@ -56,13 +56,13 @@ This will start the Spring Boot server locally on http://localhost:8080
 - Use Postman to test the following API endpoints:
 
     Start Quiz:
-    POST /api/quiz/start?username=your-username
+    - POST /api/quiz/start?username=your-username
 
     Get Random Question:
-    GET /api/quiz/question
+    - GET /api/quiz/question
 
-- Submit Answer:
-    POST /api/quiz/submit?username=your-username&questionId=1&answer=Paris
+    Submit Answer:
+    - POST /api/quiz/submit?username=your-username&questionId=1&answer=Paris
 
     Get Quiz Stats:
-    GET /api/quiz/stats?username=your-username
+    - GET /api/quiz/stats?username=your-username
