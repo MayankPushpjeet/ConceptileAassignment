@@ -47,7 +47,7 @@ This will start the Spring Boot server locally on http://localhost:8080
 - **Paste the following SQL script into the `h2-database-console` and run it to insert sample data:**
 
   ```sql
-      INSERT INTO QUESTIONS (QUESTION_TEXT, OPTION_A, OPTION_B, OPTION_C, OPTION_D, CORRECT_ANSWER)
+      INSERT INTO QUESTIONS (QUESTION_TEXT, OPTIONA, OPTIONB, OPTIONC, OPTIOND, CORRECT_ANSWER)
         VALUES 
           ('What is the capital of France?', 'Paris', 'London', 'Berlin', 'Rome', 'Paris'),
           ('What is 2 + 2?', '3', '4', '5', '6', '4');
