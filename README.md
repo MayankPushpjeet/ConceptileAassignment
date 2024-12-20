@@ -46,9 +46,8 @@ This will start the Spring Boot server locally on http://localhost:8080
 - **Password**: password
 - **Paste the following SQL script into the data.sql file and run it to create the necessary tables and insert sample data:**
 
-sql
+```sql
 Copy code
-
 INSERT INTO QUESTIONS (QUESTION_TEXT, OPTION_A, OPTION_B, OPTION_C, OPTION_D, CORRECT_ANSWER)
 VALUES 
   ('What is the capital of France?', 'Paris', 'London', 'Berlin', 'Rome', 'Paris'),
