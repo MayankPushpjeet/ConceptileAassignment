@@ -34,8 +34,8 @@ This is a Spring Boot-based project for a simple quiz application called Concept
 ### 2. Start the Server
 - Run the application using the following command:
   ```bash
-Copy code
-./mvnw spring-boot:run
+      Copy code
+      ./mvnw spring-boot:run
 This will start the Spring Boot server locally on http://localhost:8080
 
 ### 3. Set up the H2 Database
@@ -45,7 +45,7 @@ This will start the Spring Boot server locally on http://localhost:8080
   - **Username**: `sa`
   - **Password**: `password`
 
-- **Paste the following SQL script into the `data.sql` file and run it to create the necessary tables and insert sample data:**
+- **Paste the following SQL script into the `h2-database-console` and run it to create the necessary tables and insert sample data:**
 
   ```sql
       INSERT INTO QUESTIONS (QUESTION_TEXT, OPTION_A, OPTION_B, OPTION_C, OPTION_D, CORRECT_ANSWER)
