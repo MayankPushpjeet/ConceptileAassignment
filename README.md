@@ -78,3 +78,6 @@ This will start the Spring Boot server locally on http://localhost:8080
 - Answer Qestion no 2 Wrong :
     ```bash
           curl --location --request POST 'http://localhost:8080/api/quiz/submit?username=Mayank&questionId=2&answer=6'
+- Get the Stats of Username **Mayank** from previous curl reqests :
+    ```bash
+          curl --location 'http://localhost:8080/api/quiz/stats?username=Mayank'
