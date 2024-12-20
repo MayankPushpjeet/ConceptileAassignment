@@ -66,3 +66,7 @@ This will start the Spring Boot server locally on http://localhost:8080
 
     Get Quiz Stats:
     - GET /api/quiz/stats?username=your-username
+
+### 5. Sample Curl Reqests
+- To get the list of questions :
+    ```curl --location 'http://localhost:8080/api/quiz/question'
