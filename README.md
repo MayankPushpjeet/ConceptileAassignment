@@ -48,10 +48,10 @@ This will start the Spring Boot server locally on http://localhost:8080
 - **Paste the following SQL script into the `data.sql` file and run it to create the necessary tables and insert sample data:**
 
   ```sql
-INSERT INTO QUESTIONS (QUESTION_TEXT, OPTION_A, OPTION_B, OPTION_C, OPTION_D, CORRECT_ANSWER)
-  VALUES 
-    ('What is the capital of France?', 'Paris', 'London', 'Berlin', 'Rome', 'Paris'),
-    ('What is 2 + 2?', '3', '4', '5', '6', '4');
+      INSERT INTO QUESTIONS (QUESTION_TEXT, OPTION_A, OPTION_B, OPTION_C, OPTION_D, CORRECT_ANSWER)
+        VALUES 
+          ('What is the capital of France?', 'Paris', 'London', 'Berlin', 'Rome', 'Paris'),
+          ('What is 2 + 2?', '3', '4', '5', '6', '4');
 
 ### 4. Test the Endpoints Using Postman
 - Use Postman to test the following API endpoints:
