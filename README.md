@@ -69,4 +69,5 @@ This will start the Spring Boot server locally on http://localhost:8080
 
 ### 5. Sample Curl Reqests
 - To get the list of questions :
-    ```curl --location 'http://localhost:8080/api/quiz/question'
+    ```bash
+        curl --location 'http://localhost:8080/api/quiz/question'
