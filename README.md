@@ -34,7 +34,6 @@ This is a Spring Boot-based project for a simple quiz application called Concept
 ### 2. Start the Server
 - Run the application using the following command:
   ```bash
-      Copy code
       ./mvnw spring-boot:run
 This will start the Spring Boot server locally on http://localhost:8080
 
