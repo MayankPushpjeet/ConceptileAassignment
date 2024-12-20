@@ -19,7 +19,7 @@ This is a Spring Boot-based project for a simple quiz application called Concept
 ## Setup and Installation
 
 ### Prerequisites
-- Java 11 or higher
+- Java 17
 - Spring Boot
 - H2 Database (embedded, no installation required)
 
